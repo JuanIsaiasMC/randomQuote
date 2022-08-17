@@ -22,7 +22,7 @@ button {
 }
 
 .card {
-  width: 50%;
+  width: 90%;
   background-color: #ffffff;
   padding: 1.5rem;
   display: flex;
@@ -42,3 +42,9 @@ button {
 }
 
 .fa-solid {}
+
+@media screen and (min-width: 775px) {
+  .card {
+    width: 60%;
+  }
+}
